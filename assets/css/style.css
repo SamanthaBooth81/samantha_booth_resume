@@ -18,13 +18,32 @@
 }
 
 .ui-menu-color-download {
-    background-color: rgb(43, 73, 59);
+    background-color: #343434;
+}
+
+/*-------------------------------------------- Special paddings/margins/texts */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
 }
 
 /*--------------------------- Headings */
 
 header {
-    margin:0;
+    margin: 0;
 }
 
 .heading {
@@ -107,9 +126,17 @@ header {
     letter-spacing: 2px;
 }
 
-/*--------------------------------------------Hover.css*/
+/*-------------------------------------------- Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.1);
     height: 120px;
+}
+
+/*--------------------------- Footer */
+
+footer {
+    background-color: #343434;
+    color: #fafafa;
+    min-height: 120px;
 }
