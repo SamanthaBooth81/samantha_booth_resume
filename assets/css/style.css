@@ -126,6 +126,10 @@ header {
     letter-spacing: 2px;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /*-------------------------------------------- Hover.css*/
 
 .hvr-sweep-to-bottom:before {
