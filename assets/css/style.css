@@ -36,7 +36,17 @@
 .bg-color-contact {
     background-color: white;
 }
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
 /*-------------------------------------------- Special paddings/margins/texts */
+
 
 h1,
 h2,
@@ -118,7 +128,7 @@ header {
 }
 
 #nav li {
-    font-size: 14px;
+    /* font-size: 14px; */
     padding: 0;
 }
 
