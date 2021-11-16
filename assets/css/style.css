@@ -45,6 +45,10 @@
     background-color: #e74c3c;
 }
 
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
 /*-------------------------------------------- Special paddings/margins/texts */
 
 
@@ -372,6 +376,10 @@ button[type="submit"] {
     background-color: #f38033;
     border-color: #f38033;
 }
+
+/*-------------------------------------------- Map */
+
+div#map {min-height: 360px;}
 
 /*-------------------------------------------- Media Query */
 
