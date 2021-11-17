@@ -11,6 +11,22 @@
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Samantha Booth Resume</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_86mHvaN8zLaDZyc1VSzw5");
+            emailjs.send("outlook", "samantha_template", {
+                name: "Aaron",
+                notes: "The project that I want is..."
+            });
+            // emailjs.sendForm("outlook", "samantha_template", {
+            //     name: "Aaron",
+            //     notes: "The project that I want is..."
+            // });
+        })();
+    </script>
 </head>
 
 <body>
