@@ -19,6 +19,8 @@ function userInformationHTML(user) {
 }
 
 function repoInformationHTML(repos) {
+    $("#gh-user-data").html("");
+    $("#gh-repo-data").html("");
     if (repos.length == 0) {
         return `<div class="clearfix repo-list">No repos!</div>`;
     }
@@ -74,3 +76,5 @@ function fetchGitHubInformation(event) {
             }
         });
 }
+
+$(document).ready(fetchGitHubInformation);
