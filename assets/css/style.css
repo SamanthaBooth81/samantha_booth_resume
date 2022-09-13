@@ -49,6 +49,10 @@
     background-color: #f4f4f4;
 }
 
+.projects {
+    color: black;
+}
+
 /*-------------------------------------------- Special paddings/margins/texts */
 
 
@@ -182,6 +186,10 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.1);
     height: 120px;
+}
+
+.projects:hover {
+    color: #bb37f8;
 }
 
 /*--------------------------- Footer */
